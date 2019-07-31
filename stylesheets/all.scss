@@ -1,0 +1,63 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+$midnight: #E53935;
+$clouds: #ecf0f1;
+//icon 字型
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3.6rem;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: white;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.material-play-color {
+    color: black;
+    white-space: nowrap;
+}
+
+//General
+.mainbody {
+    position: absolute;
+    width: 375px;
+    height: 1186px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+    // background-color: #FFBEDB;
+    background: -webkit-linear-gradient( #fac1e9, #f7d4ec, #fcecfc);
+    /* Safari 5.1 to 6.0 */
+    background: -moz-linear-gradient( #fac1e9, #f7d4ec, #fcecfc);
+    /* Firefox 3.6 to 15 */
+    background: linear-gradient( #fac1e9, #f7d4ec, #fcecfc);
+}
+
+.serchbox {
+    position: absolute;
+    width: 343px;
+    height: 50px;
+    top: 95px;
+    left: 16px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 50px 50px 50px 50px;
+}
