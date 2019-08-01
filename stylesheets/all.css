@@ -10591,6 +10591,11 @@ a.text-dark:hover, a.text-dark:focus {
   white-space: nowrap;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 .mainbody {
   position: absolute;
   width: 375px;
@@ -10615,5 +10620,19 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #FFFFFF;
   border: 1px solid #707070;
   border-radius: 50px 50px 50px 50px;
+}
+
+.songlist {
+  position: absolute;
+  top: 499px;
+  left: 29px;
+  width: 300px;
+}
+
+tr, td {
+  width: 15px;
+  height: 13px;
+  margin: 32px;
+  color: #707070;
 }
 /*# sourceMappingURL=all.css.map */
